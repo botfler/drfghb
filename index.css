@@ -1,0 +1,1163 @@
+/* Your custom CSS */
+
+/* Reduce font size for smaller screens */
+
+
+.nav{
+    background-color: rgb(255, 255, 255);
+    display: flex; /* Make .nav2 take up only as much space as its content */
+    margin-left: 21px;
+}
+
+.nav2 {
+   
+    text-align: end; /* This aligns text content within the div to the right */
+    margin-left: auto; /* This pushes the entire div to the right */
+    position: relative; /* Add relative positioning to the content container */
+    z-index: 2;
+width: 50%;
+
+}
+.nav2 ul {
+    text-align: left;/* This aligns text content within the div to the right */
+   
+ 
+  margin-top: 39px;
+  margin-bottom: 2px;
+}
+.gki{
+    text-align: center;color: rgb(237, 50, 159);font-weight: 600;
+}
+.eee{
+    text-align: center;color: rgb(20, 4, 52);font-weight: 900;font-size: 37px;
+}
+
+/* CSS to display elements in a single line */
+.home, .about, .contact,.pages,.blog,.portfolio,.services {
+    display: inline-block; /* Display elements in a line */
+    margin-right: 14px; /* Adjust spacing between elements as needed */
+    font-size: 15px;
+}
+.img1{
+    margin-top: 10%;
+margin-left: -37px;
+
+}
+.img2{
+float: right;
+position: absolute;
+top: 0;
+right: 0;
+ /* Optional: Add a background color if needed */
+z-index: 1;
+}
+
+ 
+.img3 {
+    position: relative;/* Add relative positioning */
+    float: right;
+    max-width: auto;
+    height: auto;
+    text-align: center;
+    margin-right: 60%;
+    /* Set a higher z-index to bring it to the front */
+    margin-top: 6%;
+    margin-left: -77px;
+size: 22%;
+}
+.nav2 .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.nav2 .pages:hover .dropdown {
+    display: block;
+}
+.p{
+    float: left;
+margin-left: 20%;
+
+ /* Optional: Add a background color if needed */
+
+}
+.img4 {
+    float: right;
+    position: absolute;
+    top: 23;
+    right: 0;
+    margin-right: 42px;
+    margin-top: 102px;
+     /* Optional: Add a background color if needed */
+    z-index: 1;
+    max-width: 38%;
+
+}
+
+
+
+
+
+.centered-logo {
+    text-align: center; /* Center the content horizontally */
+    margin-bottom: 5px; /* Add spacing between the logo and other card content */
+   max-width: 12%;
+margin-left: 42%;
+margin-top: 19px;
+
+
+}
+.card-title{
+     text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-weight: 800;
+}
+
+
+.card1{
+    margin-top: 12%;
+margin-bottom: 12%;
+width: 15rem; height: 256px;
+margin-left: 13%;
+background-color: #ffffff52;
+color: white;
+}
+.card2{
+    margin-bottom: 12%;
+    width: 15rem; height: 256px;
+    margin-top: 12%;
+    margin-left: 2%;
+    background-color: #ffffff52;    color: white;
+}
+.card3{
+    margin-bottom: 12%; 
+    margin-top: 12%;
+    margin-left: 2%;
+    background-color: #ffffff52; 
+    width: 15rem; height: 256px;   color: white;
+
+
+}
+.card4{
+    margin-top: 12%;
+    margin-bottom: 12%;
+    margin-left: 2%;
+    background-color: #ffffff52;color: white;
+    width: 15rem; height: 256px;
+
+}
+.secondimg{
+    margin-top: 18%;
+}
+.thirdimg{
+margin-bottom: 10%;
+margin-left: -12%;
+}
+.para{
+    float: right;
+margin-top: 10%;
+margin-right: 20%;
+right: 0;
+ /* Optional: Add a background color if needed */
+z-index: 1;
+}
+.div2{
+     float: right;
+     margin-top: 16%;
+margin-right: 8%;
+}
+.div3{
+   margin-left: 2%; 
+   margin-top: 6%;
+float: left;
+}
+.q{
+    max-width: 42%;
+ float: right;
+right: 0;
+margin-bottom: 6%;
+margin-top: -32%;
+}
+.q2 {
+    max-width: 42%;
+    float: left; /* Float the .q2 element to the left */
+}
+
+.div5{
+    float: right; /* Float the .div4 element to the right */
+}
+
+
+
+
+
+.card11{
+    
+    margin-top: 12%;
+margin-left: 13%;
+width: 15rem; height: 256px;
+color: white;
+}
+.card22{
+    margin-top: 12%;
+    margin-left: 2%;
+     color: white;
+     width: 15rem; height: 256px;
+}
+.card33{
+    margin-top: 12%;
+    margin-left: 2%;
+     color: white;
+     width: 15rem; height: 256px;
+
+}
+.card44{
+    margin-top: 12%;
+    width: 15rem; height: 256px;
+    margin-left: 2%;
+   color: white;
+
+}
+.logo{
+    text-align: center; /* Center the content horizontally */
+    margin-bottom: 5px; /* Add spacing between the logo and other card content */
+   max-width: 49%;
+margin-left: 4%;
+margin-top: 19px;
+
+}.card-container {
+    display: flex;
+   gap :1px;
+background-color: rgb(18, 41, 66);
+margin-top: 0%;
+}
+.ner{
+   display: flex;
+   gap :1px;
+background-color: rgb(18, 41, 66);
+margin-top: 0%; 
+}
+.w{
+    float: left;
+}
+
+.c1{
+    margin-top: 1%;
+margin-bottom: 4%;
+margin-left: 13%;
+width: 15rem; height: 256px;
+
+color: white;
+}
+.c2{
+    margin-bottom: 4%;
+    margin-top: 1%;
+    margin-left: 10%;
+       color: white;
+       width: 15rem; height: 256px;
+}
+.c3{
+    margin-bottom: 4%; 
+    margin-top: 1%;
+    margin-left: 10%;
+       color: white;
+       width: 15rem; height: 256px;
+     
+
+}
+
+.r {
+    display: flex;
+   gap :1px;
+background-color: rgb(18, 41, 66);
+margin-top: 0%;
+}
+.y {
+    max-width: 102%;
+    overflow: hidden;
+    /* Include the border in the image's dimensions */
+}
+.e{
+    display: flex;
+   gap :1px;
+margin-top: 5%;
+
+}
+.v{
+ 
+background-color: rgb(18, 41, 66);
+color: white;
+display: flex;
+gap :1px;
+margin-top: 5%;
+
+}
+.v1{
+    background-color: rgb(18, 41, 66);
+color: white;
+display: flex;
+gap :1px;
+margin-top: 5%;
+}
+.b{
+    margin-top: 4%; 
+}
+.j{
+  display: flex;
+  
+}
+.q{
+    clear: both;
+}
+.h{
+    color: white;
+}
+.cq{
+    margin-top: 1%;
+margin-bottom: 4%;
+margin-left: 3%;
+
+color: white;
+}
+.cw{
+    margin-bottom: 4%;
+    margin-top: 1%;
+    margin-left: 10%;
+       color: white;
+}
+.ce{
+    margin-bottom: 4%; 
+    margin-top: 1%;
+    margin-left: 10%;
+       color: white;
+     
+
+}
+.mm{
+    max-width: 32px;
+}
+.image-container {
+    display: flex;
+    margin-top:29px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+    margin-left: 12%;
+}
+
+.top-images,
+.bottom-images {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+}
+
+.top-images img,
+.bottom-images img {
+    max-width: 50%;
+    height: auto;
+    margin: 5px; /* Add margin between images */
+}
+.q3{
+    font-size: 70px;
+    font-weight: 800;
+}
+.q4{
+    font-size: 57px;
+    font-weight: 300;
+}
+.q5{
+    
+    background-color: rgb(245, 53, 120);font-size: 27px;border-color: rgba(233, 73, 73, 0.542);border: 4px rgb(249, 0, 108) ;
+}
+.w{
+    font-weight: 500; font-size: 42px;
+}
+.q6{
+    font-size: 17px; font-weight: 800; color:rgb(245, 53, 120) ;
+}
+.q7{
+    color: rgb(20, 4, 52);font-size: 30px;
+}
+.w1{
+    background-color: rgb(245, 53, 120);font-size: 27px;border-color: rgba(233, 73, 73, 0.542);border: 4px rgb(249, 0, 108) ;
+}
+.q11{
+    font-size: 17px;font-weight: 300;
+}
+.gk{
+    text-align: center;color: rgb(237, 50, 159);font-weight: 600;
+}
+/*..........................................................................................................................................................*/
+@media  (max-width:1273px){
+    .q1{
+     max-width: 12%;
+     transition: 0.3 ;
+    }
+    .img1{
+         max-width: 15%;
+         margin-top: 5%;
+       
+    }
+    .img2{
+         max-width: 17%;
+         transition: 0.3s;
+        
+    }
+    .img4{
+          max-width: 37%;
+          transition: 0.3s;
+      
+    }
+    .img3{
+        max-width: auto;
+   transition: 0.3s;
+margin-right: 67%;
+}
+    .q3{
+      font-size: 270%;
+      font-weight: 800;
+      justify-content: center;
+      transition: 0.3s;
+    }
+    .q4{
+        font-size: 170%;
+        margin-bottom: -2%;
+    }
+    .q5{
+font-size: 17px;
+    }
+    .card1{
+        margin-left: 9%;
+        transition: 0.3s;
+    }
+    
+    
+    }
+    @media (max-width:1211px){
+        .div2{
+            margin-right: 4%;
+           
+        }
+        .q6{
+            font-size: 12px;
+        }
+        .q7{
+           font-size: 20px; 
+        }
+        .q8{
+              font-size: 18px; 
+        }
+        .w1{
+            font-size: 18px; 
+        }
+        .secondimg{
+            max-width: 30%;
+        }
+        .thirdimg{
+              max-width: 30%;
+        }
+        .card11{
+            margin-left: 4%;
+        }
+        .c1{
+            margin-left: 4%;
+        }
+        .card1{
+            margin-left: 3%;
+        }
+    }
+    @media (max-width:990px){.v1{
+        flex-direction: column;
+     }
+     .cw{
+         margin-left: 0%;
+     }
+     .img2{
+        display: none;
+     }
+     .cq{
+        margin-left: 0%;
+     }
+     .image-container{
+      
+     display: flex;
+         margin-top:29px;
+         flex-direction: column;
+         align-items: center;
+         max-width: 20%;
+         margin-left: 27%; }
+    
+     
+     .top-images,
+     .bottom-images {
+         display: flex;
+         justify-content: center; /* Center images horizontally */
+     }
+     
+     .top-images img,
+     .bottom-images img {
+         max-width: 100%;
+         height: auto;
+         margin: 15px; /* Add margin between images */
+     }
+ }
+    @media (max-width:943px){
+        .q1{
+            max-width: 11%;
+            transition: 0.3 ;
+           }
+           .img1{
+                max-width: 15%;
+                margin-top: 5%;
+              
+           }
+           .img2{
+                max-width: 17%;
+                transition: 0.3s;
+               
+           }
+           .img4{
+                 max-width: 40%;
+                 margin-top: 12px;
+                 transition: 0.3s;
+             
+           }
+           .img3{
+               max-width: auto;
+          transition: 0.3s;
+       margin-right: 60%;
+       }
+           .q3{
+             font-size: 200%;
+             font-weight: 600;
+             justify-content: center;
+             transition: 0.3s;
+           }
+           .q4{
+               font-size: 130%;
+               margin-bottom: -2%;
+           }
+           .q5{
+       font-size: 14px;
+           }
+           .card1{
+               margin-left: 2%;
+               transition: 0.3s;
+               
+           }
+           .card4{
+            margin-right: 3%;
+           }
+           .div2{
+            margin-right: 2%;
+            margin-top: 4%;
+           
+        }
+        .q6{
+            font-size: 12px;
+        }
+        .q7{
+           font-size: 18px; 
+        }
+        .q8{
+              font-size: 15px; 
+        }
+        .w1{
+            font-size: 10px; 
+            
+        }
+        .secondimg{
+            max-width: 20%;
+            margin-left: 12%;
+        }
+        .thirdimg{
+              max-width: 20%;
+        }
+        .card11{
+            margin-left: 4%;
+        }
+        .c1{
+            margin-left: 4%;
+        }
+        .q11{
+            font-size: 10px; 
+        }
+        .q{
+           max-width: 32%;
+           margin-left: 2%;
+        }
+    .q2{
+        max-width: 26%;
+        margin-top: 22%;
+    }
+    .card11,.card22,.card33,.card44{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    .logo{
+        text-align: center; /* Center the content horizontally */
+        margin-bottom: 5px; /* Add spacing between the logo and other card content */
+       max-width: 29%;
+    margin-left: 4%;
+    margin-top: 19px;
+    }
+    .w{
+        font-weight: 300; font-size: 22px;
+    }
+    .card-text{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .c1{
+        margin-left: 0%;
+        gap: none;
+       
+    }
+    .c1,.c2,.c3{
+        width: 14rem; height: 206px;
+    }
+    .v1{
+       flex-direction: column;
+    }
+    .cw{
+        margin-left: 0%;
+    }
+    .cq{
+       margin-left: 0%;
+    }
+    .image-container{
+     
+    display: flex;
+        margin-top:29px;
+        flex-direction: column;
+        align-items: center;
+        max-width: 20%;
+        margin-left: 27%; }
+   
+    
+    .top-images,
+    .bottom-images {
+        display: flex;
+        justify-content: center; /* Center images horizontally */
+    }
+    
+    .top-images img,
+    .bottom-images img {
+        max-width: 100%;
+        height: auto;
+        margin: 15px; /* Add margin between images */
+    }
+
+   
+           
+    }
+    @media (max-width:960px){
+        .card-container{
+            flex-direction: column;
+        }
+        .card1{
+            width: 55rem; height: 256px;
+            margin-top: 5%;
+            margin-left: 2%;
+        }
+        .card2{
+             width: 55rem; height: 256px;
+            margin-top: 0%;
+            margin-left: 2%;
+        }
+        .card3{
+             width: 55rem; height: 256px;
+            margin-top: 0%;
+            margin-left: 2%;
+        }
+        .card4{
+            width: 55rem; height: 256px;
+            margin-top: 0%;
+            margin-left: 2%;
+        }
+    }
+@media(max-width:911px){
+    .card-container{
+            flex-direction: column;
+        }
+        .card1{
+            width: 50rem; height: 256px;
+            margin-top: 5%;
+            margin-left: 2%;
+        }
+        .card2{
+             width: 50rem; height: 256px;
+            margin-top: 0%;
+            margin-left: 2%;
+        }
+        .card3{
+             width: 50rem; height: 256px;
+            margin-top: 0%;
+            margin-left: 2%;
+        }
+        .card4{
+            width: 50rem; height: 256px;
+            margin-top: 0%;
+            margin-left: 2%;
+        }
+        .thirdimg{
+            display: none;
+           
+        }
+        .secondimg{
+            max-width: 50%;
+            margin-top: 0%;
+            justify-content: center;
+        }
+        .r{
+            flex-direction: column;
+           
+        }
+        .c1,.c2,.c3,.c4{
+            width: 20rem; height: 356px;
+            margin-top: 4%;
+            margin-left: 2%;
+        }
+        .e{
+            flex-direction: column;
+        }
+}
+@media (max-width:828px) {
+    .card-container{
+        flex-direction: column;
+    }
+    
+    .card1{
+        width: 46rem; height: 256px;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .card2{
+        width: 46rem; height: 256px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .card3{
+        width: 46rem; height: 256px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .card4{
+        width: 46rem; height: 256px;
+        margin-top: 0%;
+        margin-left: 2%;
+    }
+}
+@media (max-width: 517px) {
+    .card-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%; /* Set all cards to 100% width */
+        height: auto; /* Allow the height to adjust automatically */
+        margin-top: 2%; /* Add some margin between cards */
+        margin-left: 0%; /* Reset left margin */
+    }
+
+
+    .ner{
+        flex-direction: column;
+    }
+    .img1,.img2{
+        display: none;
+    }
+    .img4{
+        float: left;
+        margin-right: 5%;
+        max-width: 90%;
+        margin-top: 12%;
+    }
+
+.img3{
+    margin-top: 102%;
+    margin-right: 33%;
+ background-color: rgb(255, 252, 198) ;}
+.gk{
+    margin-top: 150%;
+}
+
+
+    .q1{
+        max-width: 42%;
+    }
+    .q3{
+        font-size: 18px;
+    }
+    .q4{
+         font-size: 20px;
+    }
+    .q5{
+        font-size: 17px;
+        
+    }
+    
+    
+    .navbar-toggler {
+        background-color: rgb(255, 0, 89);
+       color: black;  /* Change the background color to red */
+    }
+    .navbar {
+background-color: rgb(255, 252, 198);
+
+
+    }
+    .eee{
+        font-size: 19px;
+    }
+    .secondimg{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    .div2{
+       float: left;
+       margin-left: 2%;
+    }
+    .gki{
+        margin-top: 100%;
+    }
+    .q{
+        float: left; margin-top: 10%;
+        max-width: 100%;
+        margin-left: 0%;
+        
+    }
+    .q2{
+         max-width: 100%;
+         margin-top: 0%;
+    }
+    .c1,.c2,.c3{
+        width: 24rem; height: 456px;
+        margin-top: 4%;
+        margin-left: 2%;
+        margin-top: 12%;
+
+    }
+    .y{
+        max-width: 150%;
+        margin-left: 12%;
+        
+    }
+    .v1{
+        margin-top: 12%;
+    }
+   
+
+    
+
+}
+
+/* Add this CSS inside your existing media query for max-width: 500px */
+@media (max-width:758px){
+    .card-container{
+        flex-direction: column;
+    }
+    .card1{
+        width: 40rem; height: 256px;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .card2{
+        width: 40rem; height: 256px;        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .card3{
+        width: 40rem; height: 256px;        margin-top: 0%;
+        margin-left: 2%; 
+    }
+    .card4{
+        width: 40rem; height: 256px;        margin-top: 0%;
+        margin-left: 2%; 
+    }
+    .ner{
+        flex-direction: column;
+    }
+    .img1,.img2{
+        display: none;
+    }
+    .img4{
+        float: left;
+        margin-right: 5%;
+        max-width: 90%;
+        margin-top: 12%;
+    }
+
+.img3{
+    margin-top: 102%;
+    margin-right: 33%;
+ background-color: rgb(255, 252, 198) ;}
+.gk{
+    margin-top: 150%;
+}
+
+
+    .q1{
+        max-width: 42%;
+       
+    }
+    .q3{
+        font-size: 45px;
+
+    }
+    .q4{
+         font-size: 25px;
+    }
+    .q5{
+        font-size: 17px;
+        
+    }
+   
+    
+    
+   
+    .navbar-toggler {
+        background-color: rgb(255, 0, 89);
+       color: black;  /* Change the background color to red */
+    }
+    .navbar {
+background-color: rgb(255, 252, 198);
+
+
+    }
+    .eee{
+        font-size: 19px;
+    }
+    .secondimg{
+        max-width: 80%;
+        margin-left: 10%;
+    }
+    .div2{
+       float: left;
+       margin-left: 10%;
+    }
+    .gki{
+        margin-top: 50%;
+    }
+    .q{
+        float: left; margin-top: 10%;
+        max-width: 100%;
+        margin-left: 0%;
+        
+    }
+    .q2{
+         max-width: 100%;
+         margin-top: 0%;
+    }
+    .c1,.c2,.c3{
+        width: 24rem; height: 456px;
+        margin-top: 4%;
+        margin-left: 5%;
+        margin-top: 12%;
+
+    }
+    .y{
+        max-width: 150%;
+        margin-left: 12%;
+        
+    }
+    .v1{
+        margin-top: 22%;
+    }
+    .div5{
+        float: left;
+    }
+   
+
+}
+@media ( max-width:494px){
+    .card-container{
+        flex-direction: column;
+    }
+    .card1{
+        width: 20rem; height: 256px;
+        margin-top: 5%;
+        margin-left: 1%;
+    }
+    .card2{
+        width: 20rem; height: 256px;        margin-top: 0%;
+        margin-left: 1%;
+    }
+    .card3{
+        width: 20rem; height: 256px;        margin-top: 0%;
+        margin-left: 1%; 
+    }
+    .card4{
+        width: 20rem; height: 256px;        margin-top: 0%;
+        margin-left: 1%; 
+    } 
+    .c1,.c2,.c3{
+        width: 20rem; height: 456px;
+        margin-top: 4%;
+        margin-left: 2%;
+        margin-top: 12%;
+
+    }  
+    .y{
+        max-width: 90%;
+        margin-left: 7%;
+        
+    }
+}
+@media(max-width:670px){
+    .card-container{
+        flex-direction: column;
+    }
+    .card1{
+        width: 30rem; height: 256px;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+    .card2{
+        width: 30rem; height: 256px;        margin-top: 0%;
+        margin-left: 2%;
+    }
+    .card3{
+        width: 30rem; height: 256px;        margin-top: 0%;
+        margin-left: 2%; 
+    }
+    .card4{
+        width: 30rem; height: 256px;        margin-top: 0%;
+        margin-left: 2%; 
+    }
+    .centered-logo{
+        margin-left: 43%;
+    }
+    .q3{
+        font-size: 35px;
+
+    }
+    .q4{
+         font-size: 25px;
+    }
+    .q5{
+        font-size: 17px;
+        
+    }
+    .q6{
+        font-size: 12px;
+    }
+    .q7{
+        font-size: 9px;
+    }
+    .q8{
+        font-size: 8px;
+    }
+    .q11{
+        font-size: 8px; 
+    }
+    .div2{
+        margin-top: 5px;
+        width: 50%;
+    }
+    .w11{
+        font-size: 12px;
+    }
+   
+}
+@media (max-width:541px){
+    .q3{
+        font-size: 20px;
+font-weight: 800;
+    }
+    .q4{
+         font-size: 25px;
+    }
+    .q5{
+        font-size: 17px;
+        
+    } 
+    .card1,.card2,.card3,.card4{
+        margin-left: 6%;
+    }
+    .secondimg{
+        margin-left: 12%;
+    }
+    .div5{
+        margin-top: 2%;
+    }
+}
+@media(max-width:414px){
+    .q3{
+        font-size: 10px;
+font-weight: 700;
+    }
+    .q4{
+         font-size: 17px;
+    }
+    .q5{
+        font-size: 17px;
+        
+    } 
+    .card1,.card2,.card3,.card4{
+        width: 20rem;
+    }   
+}
+@media(max-width:376px){
+    .card1,.card2,.card3,.card4{
+        width: 20rem;
+    }
+}
+@media(max-width:516px){
+    .card1,.card2,.card3,.card4{
+        width: 26rem;
+    }
+}
+@media(max-width:416px){
+    .card1,.card2,.card3,.card4{
+        width: 20rem;
+    }
+}
+@media (max-width:343px){
+    .card1,.card2,.card3,.card4{
+        width: 15rem;
+    }
+    .q3{
+        font-size: 10px;
+font-weight: 900;
+margin-top: 2%;
+    }
+    .q4{
+         font-size: 18px;
+    }
+    .q5{
+        font-size: 17px;
+        
+    } 
+    .card1,.card2,.card3,.card4{
+        width: 20rem;
+    }   
+}
+@media(max-width:305px){
+    .q5{
+        font-size: 7px;
+        
+    } 
+    .q4{
+       font-size: 9px; 
+    }
+    .card1,.card2,.card3,.card4{
+        width: 13rem;
+    }
+    .c1,.c2,.c3{
+        margin-left: 0px;
+    }
+    .y{
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:331px){
+    .y{
+        max-width: 50%;
+    }
+}
